@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView txtResultado = findViewById(R.id.txtResultado);
                 txtResultado.setText(Integer.toString(resultado));
+                Toast.makeText(MainActivity.this, "Resultado na tela", Toast.LENGTH_LONG).show();
             }
         });
         ImageButton btnMenos = findViewById(R.id.btnMenos);
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView txtResultado = findViewById(R.id.txtResultado);
                 txtResultado.setText(Integer.toString(resultado));
+                Toast.makeText(MainActivity.this, "Resultado na tela", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView txtResultado = findViewById(R.id.txtResultado);
                 txtResultado.setText(Integer.toString(resultado));
+                Toast.makeText(MainActivity.this, "Resultado na tela", Toast.LENGTH_LONG).show();
             }
         });
         ImageButton btnMultiplicacao = findViewById(R.id.btnMultiplicacao);
@@ -79,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView txtResultado = findViewById(R.id.txtResultado);
                 txtResultado.setText(Integer.toString(resultado));
+                Toast.makeText(MainActivity.this, "Resultado na tela", Toast.LENGTH_LONG).show();
             }
         });
     }
