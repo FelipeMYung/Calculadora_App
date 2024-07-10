@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#4bcc87">
 
     <TextView
         android:id="@+id/txtResultado"
@@ -57,6 +58,7 @@
 
     <ImageButton
         android:id="@+id/btnDivisao"
+        android:scaleType="fitCenter"
         android:layout_width="58dp"
         android:layout_height="45dp"
         android:visibility="visible"
@@ -70,6 +72,7 @@
 
     <ImageButton
         android:id="@+id/btnMenos"
+        android:scaleType="fitCenter"
         android:layout_width="53dp"
         android:layout_height="41dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,6 +84,7 @@
         app:srcCompat="@drawable/sinal_de_menos" />
 
     <ImageButton
+        android:scaleType="fitCenter"
         android:id="@+id/btnSoma"
         android:layout_width="70dp"
         android:layout_height="58dp"
